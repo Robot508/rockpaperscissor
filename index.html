@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rock, Paper & Scissors</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!--   Welcome Title -->
+  <div class="line"></div>
+  <div class="Welcome">
+    <h1 class="Heading">Welcome to Rock, Paper & Scissor Game</h1>
+  </div>
+  <div class="line"></div>
+
+  <!--   Input From User -->
+  <h1 class = "Heading" id = "id0001">Computer Vs User</h1>
+  <div class = "Score">
+    <div class="flex">
+      <h1 class = "Heading">User Score:</h1>
+      <p class = "para"  id="uscore">0</p>
+      <h1 class = "Heading">Selected Choice:</h1>
+      <img class="icon" id="uicon" src="rock.jpeg">
+    </div>
+    
+    <div class="flex">
+      <h1 class = "Heading">Computer Score:</h1>
+      <p class = "para" id="cscore">0</p>
+      <h1 class = "Heading">Selected Choice:</h1>
+      <img  class="icon" id="cicon" src="rock.jpeg">
+    </div>
+  </div>
+  <h1 class = "Heading" id = "welcome">Choose One Option From Below!</h1>
+  <div class = "row">
+    <button class="Button" id="s" onclick="clicks()">Scissor</button>
+    <button class="Button" id="p" onclick="clickp()">Paper</button>
+    <button class="Button" id="r" onclick="clickr()">Rock</button>
+  </div>
+<div id="result">
+  <p id = "para">
+    
+  </p>
+</div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
